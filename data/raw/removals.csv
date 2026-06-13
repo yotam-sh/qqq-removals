@@ -1,0 +1,205 @@
+ticker,removal_date,company,reason,include
+CMVT,2007-02-01,Comverse Technology,Comverse did not meet the minimum monthly weighting requirements.,1
+APCC,2007-02-14,American Power Conversion,APC was acquired by Schneider Electric.,0
+AEOS,2007-03-08,American Eagle Outfitters,American Eagle Outfitters transferred its listing from NASDAQ to NYSE.,1
+MEDI,2007-06-01,MedImmune,MedImmune was acquired by AstraZeneca.,0
+BMET,2007-07-12,Biomet,Biomet was taken private.,0
+NLTI,2007-08-27,NTL Incorporated,NTL Incorporated was merged into Virgin Media.,0
+CDWC,2007-10-08,CDW Corporation,CDW was taken private.,0
+CKFR,2007-12-04,CheckFree Corporation,CheckFree was acquired by Fiserv.,0
+XMSR,2007-12-24,XM Satellite Radio,Annual index reconstitution.,1
+SEPR,2007-12-24,Sepracor,Annual index reconstitution.,1
+ROST,2007-12-24,Ross Stores,Annual index reconstitution.,1
+PTEN,2007-12-24,Patterson-UTI Energy,Annual index reconstitution.,1
+ERIC,2007-12-24,LM Ericsson,Annual index reconstitution.,1
+BEAS,2008-04-30,BEA Systems,BEA Systems was acquired by Oracle.,0
+TLAB,2008-05-19,Tellabs,Tellabs did not meet the minimum monthly weighting requirements.,1
+UAUA,2008-07-21,UAL Corporation,UAL did not meet the minimum monthly weighting requirements.,1
+MNST,2008-11-10,Monster Worldwide,Monster did not meet the minimum monthly weighting requirements.,0
+LEAP,2008-12-22,Leap Wireless International,Annual index reconstitution.,1
+DISCA,2008-12-22,Discovery Communications Class A,Annual index reconstitution.,1
+LAMR,2008-12-22,Lamar Advertising Company,Annual index reconstitution.,1
+LVLT,2008-12-22,Level 3 Communications,Annual index reconstitution.,1
+AMLN,2008-12-22,Amylin Pharmaceuticals,Annual index reconstitution.,1
+SIRI,2008-12-22,Sirius XM Radio,Annual index reconstitution.,1
+PETM,2008-12-22,PetSmart,Annual index reconstitution.,1
+WFMI,2008-12-22,Whole Foods Market,Annual index reconstitution.,1
+CDNS,2008-12-22,Cadence Design Systems,Annual index reconstitution.,1
+VMED,2008-12-22,Virgin Media,Annual index reconstitution.,1
+SNDK,2008-12-22,SanDisk,Annual index reconstitution.,1
+FMCN,2009-01-20,Focus Media Holding,Focus Media did not meet the minimum monthly weight requirements.,1
+JAVA,2009-07-17,Sun Microsystems,Sun Microsystems was acquired by Oracle.,0
+JNPR,2009-10-29,Juniper Networks,Joy Global transferred its listing from NASDAQ to NYSE.,1
+AKAM,2009-12-21,Akamai Technologies,Annual index reconstitution.,1
+IACI,2009-12-21,IAC/InterActiveCorp,Annual index reconstitution.,1
+HANS,2009-12-21,Hansen Natural,Annual index reconstitution.,1
+PPDI,2009-12-21,Pharmaceutical Product Development,Annual index reconstitution.,1
+RYAAY,2009-12-21,Ryanair,Annual index reconstitution.,1
+STLD,2009-12-21,Steel Dynamics,Annual index reconstitution.,1
+LBTYA,2009-12-21,Liberty Global Class A,Annual index reconstitution.,1
+LOGI,2010-12-20,Logitech,Annual index reconstitution.,1
+JBHT,2010-12-20,J. B. Hunt,Annual index reconstitution.,1
+HOLX,2010-12-20,Hologic,Annual index reconstitution.,1
+FWLT,2010-12-20,Foster Wheeler,Annual index reconstitution.,1
+DISH,2010-12-20,Dish Network,Annual index reconstitution.,1
+CTAS,2010-12-20,Cintas,Annual index reconstitution.,1
+PDCO,2010-12-20,Patterson Companies,Annual index reconstitution.,1
+GENZ,2011-04-04,Genzyme,Genzyme was acquired by Sanofi-Aventis.,0
+MICC,2011-05-27,Millicom International Cellular,"Millicom consolidated its primary listing to NASDAQ OMX Stockholm, withdrawing the NASDAQ US listing.",0
+CEPH,2011-07-15,Cephalon,Cephalon was acquired by Teva Pharmaceutical Industries.,0
+JOYG,2011-12-06,Joy Global,Joy Global transferred its listing from NASDAQ to NYSE.,1
+FLIR,2011-12-19,FLIR Systems,Annual index reconstitution.,1
+ILMN,2011-12-19,Illumina,Annual index reconstitution.,1
+QGEN,2011-12-19,Qiagen,Annual index reconstitution.,1
+NIHD,2011-12-19,NII Holdings,Annual index reconstitution.,1
+URBN,2011-12-19,Urban Outfitters,Annual index reconstitution.,1
+FSLR,2012-04-23,First Solar,First Solar did not meet the minimum monthly weight requirements.,1
+TEVA,2012-05-30,Teva Pharmaceutical Industries,Teva transferred its listing from NASDAQ to NYSE.,1
+TCOM,2012-07-23,Ctrip,Ctrip did not meet the minimum monthly weight requirements.,1
+INFY,2012-12-12,Infosys,Infosys transferred its listing from NASDAQ to NYSE.,1
+APOL,2012-12-24,Apollo Group,Annual index reconstitution.,1
+FLEX,2012-12-24,Flextronics,Annual index reconstitution.,1
+GMCR,2012-12-24,Green Mountain Coffee Roasters,Annual index reconstitution.,1
+LRCX,2012-12-24,Lam Research,Annual index reconstitution.,1
+EA,2012-12-24,Electronic Arts,Annual index reconstitution.,1
+NFLX,2012-12-24,Netflix,Annual index reconstitution.,1
+RIMM,2012-12-24,Research in Motion,Annual index reconstitution.,1
+VRSN,2012-12-24,VeriSign,Annual index reconstitution.,1
+WCRX,2012-12-24,Warner Chilcott,Annual index reconstitution.,1
+MRVL,2012-12-24,Marvell Technology Group,Annual index reconstitution.,1
+LMCA,2013-01-15,Liberty Media,Starz replaced Liberty Media after a spinoff.,0
+STRZA,2013-03-18,Starz,Starz did not meet the minimum monthly weight requirements.,1
+VMED,2013-06-05,Virgin Media,Virgin Media merged with Liberty Media.,0
+PRGO,2013-06-06,Perrigo,Perrigo transferred its listing from NASDAQ to NYSE.,1
+ORCL,2013-07-15,Oracle,Oracle transferred its listing from NASDAQ to NYSE.,1
+BMC,2013-07-25,BMC Software,BMC Software was taken private.,0
+LIFE,2013-08-22,Life Technologies,Life Technologies was in the process of merging with Thermo Fisher Scientific.,0
+DELL,2013-10-29,Dell,Dell Inc. was taken private.,0
+GOLD,2013-11-18,Randgold Resources,Randgold Resources did not meet the minimum monthly weight requirements.,1
+FOSL,2013-12-23,Fossil Group,Annual index reconstitution.,1
+MCHP,2013-12-23,Microchip Technology,Annual index reconstitution.,1
+SHLD,2013-12-23,Sears Holdings,Annual index reconstitution.,1
+XRAY,2013-12-23,Dentsply,Annual index reconstitution.,1
+NUAN,2013-12-23,Nuance Communications,Annual index reconstitution.,1
+MXIM,2014-12-22,Maxim Integrated Products,Annual index reconstitution.,1
+FFIV,2014-12-22,F5 Networks,Annual index reconstitution.,1
+EXPE,2014-12-22,Expedia Group,Annual index reconstitution.,1
+EQIX,2015-03-23,Equinix,"Equinix converted into a real estate investment trust, making it ineligible for inclusion in the Nasdaq-100, but it became eligible for inclusion in the Nasdaq Financial-100.",1
+KRFT,2015-07-02,Kraft Foods,"Kraft Foods merged with Heinz, becoming Kraft Heinz",0
+CTRX,2015-07-24,Catamaran Corporation,Catamaran Corporation went private.,0
+DTV,2015-07-24,DirecTV,DirecTV was acquired by AT&T.,0
+SIAL,2015-07-31,Sigma-Aldrich,Sigma-Aldrich was acquired by Merck KGaA.,0
+ALTR,2015-10-07,Altera,Altera merged with Intel.,0
+AVGO,2015-11-11,Broadcom Corporation,Broadcom was in the process of merging with Avago.,0
+LILA,2015-12-21,Liberty Latin America Class A,Liberty Media tracking stocks were removed from the index.,1
+WYNN,2015-12-21,Wynn Resorts,Annual index reconstitution.,1
+VIP,2015-12-21,VimpelCom,Annual index reconstitution.,1
+SPLS,2015-12-21,Staples,Annual index reconstitution.,1
+GRMN,2015-12-21,Garmin,Annual index reconstitution.,1
+GMCR,2015-12-21,Keurig Green Mountain,Annual index reconstitution.,1
+EXPD,2015-12-21,Expeditors International,Annual index reconstitution.,1
+CHRW,2015-12-21,C. H. Robinson Worldwide,Annual index reconstitution.,1
+LILAK,2015-12-21,Liberty Latin America Class C,Liberty Media tracking stocks were removed from the index.,1
+KLAC,2016-02-16,KLA-Tencor,KLA-Tencor did not meet the minimum monthly weight requirements.,1
+SNDK,2016-03-16,SanDisk,SanDisk was acquired by Western Digital.,0
+BATRA,2016-06-20,Liberty Media,Liberty Media did not meet the minimum monthly weight requirements.,1
+LMCK,2016-06-20,Liberty Media,Liberty Media did not meet the minimum monthly weight requirements.,1
+LMCA,2016-06-20,Liberty Media,Liberty Media did not meet the minimum monthly weight requirements.,1
+BATRK,2016-06-20,Liberty Media,Liberty Media did not meet the minimum monthly weight requirements.,1
+ENDP,2016-07-18,Endo International,Endo International did not meet the minimum monthly weight requirements.,1
+LLTC,2016-10-19,Linear Technology,Linear Technology did not meet the minimum monthly weight requirements.,1
+WFM,2016-12-19,Whole Foods Market,Annual index reconstitution.,1
+SRCL,2016-12-19,Stericycle,Annual index reconstitution.,1
+NTAP,2016-12-19,NetApp,Annual index reconstitution.,1
+BBBY,2016-12-19,Bed Bath & Beyond,Annual index reconstitution.,1
+NXPI,2017-02-07,NXP Semiconductors,NXP was in the process of merging with Qualcomm.,0
+SBAC,2017-03-20,SBA Communications,"SBA converted into a real estate investment trust, making it ineligible for inclusion in the Nasdaq-100, but it became eligible for inclusion in the Nasdaq Financial-100.",1
+TRIP,2017-04-24,TripAdvisor,TripAdvisor did not meet the minimum monthly weight requirements.,1
+YHOO,2017-06-19,Yahoo! Inc.,Yahoo! Inc. was acquired by Verizon and subsequently converted to a closed-end fund.,0
+MAT,2017-10-23,Mattel,Mattel did not meet the minimum monthly weight requirements.,1
+VIAB,2017-12-18,Viacom,Annual index reconstitution.,1
+TSCO,2017-12-18,Tractor Supply,Annual index reconstitution.,1
+NCLH,2017-12-18,Norwegian Cruise Line Holdings,Annual index reconstitution. Norwegian Cruise Line was dropped due to transferring its listing from NASDAQ to the NYSE.,1
+DISCK,2017-12-18,Discovery Communications Series C,Annual index reconstitution.,1
+DISCA,2017-12-18,Discovery Communications Series A,Annual index reconstitution.,1
+AKAM,2017-12-18,Akamai Technologies,Annual index reconstitution.,1
+DISH,2018-07-23,Dish Network,Dish Network did not meet the minimum monthly weight requirement.,1
+CA,2018-11-05,CA Inc.,NXP Semiconductors rejoined the index following its failed acquisition by Qualcomm. CA Inc. merged with Broadcom.,0
+XRAY,2018-11-19,Dentsply Sirona,Dentsply Sirona did not meet the minimum monthly weight requirements.,1
+ESRX,2018-12-24,Express Scripts,Annual index reconstitution.,1
+HOLX,2018-12-24,Hologic,Annual index reconstitution.,1
+VOD,2018-12-24,Vodafone,Annual index reconstitution.,1
+SHPG,2018-12-24,Shire PLC,Annual index reconstitution.,1
+STX,2018-12-24,Seagate Technology,Annual index reconstitution.,1
+QRTEA,2018-12-24,Qurate Retail,Annual index reconstitution.,1
+FOX,2019-03-19,21st Century Fox Class B,"Two classes of stock of Fox Corporation replaced the two classes of stock of 21st Century Fox, which was acquired by The Walt Disney Company.",0
+FOXA,2019-03-19,21st Century Fox Class A,"Two classes of stock of Fox Corporation replaced the two classes of stock of 21st Century Fox, which was acquired by The Walt Disney Company.",0
+CELG,2019-11-21,Celgene,Celgene was acquired by Bristol Myers Squibb.,0
+HAS,2019-12-23,Hasbro,Annual index reconstitution.,1
+JBHT,2019-12-23,J.B. Hunt,Annual index reconstitution.,1
+HSIC,2019-12-23,Henry Schein,Annual index reconstitution.,1
+NLOK,2019-12-23,NortonLifeLock,Annual index reconstitution.,1
+WYNN,2019-12-23,Wynn Resorts,Annual index reconstitution.,1
+MYL,2019-12-23,Mylan,Annual index reconstitution.,1
+AAL,2020-04-20,American Airlines,American Airlines did not meet the minimum monthly weight requirements.,1
+WTW,2020-04-30,Willis Towers Watson,WTW did not meet the minimum monthly weight requirements.,1
+UAL,2020-06-22,United Airlines Holdings,United Airlines did not meet the minimum monthly weight requirements.,1
+CSGP,2020-07-20,CoStar Group,CoStar did not meet the minimum monthly weight requirements.,1
+NTAP,2020-08-24,NetApp,NetApp did not meet the minimum monthly weight requirements.,1
+WDC,2020-10-19,Western Digital,Western Digital did not meet the minimum monthly weight requirements.,1
+CTXS,2020-12-21,Citrix Systems,Annual index reconstitution.,1
+EXPE,2020-12-21,Expedia,Annual index reconstitution.,1
+BMRN,2020-12-21,BioMarin Pharmaceutical,Annual index reconstitution.,1
+LBTYK,2020-12-21,Liberty Global,Annual index reconstitution.,1
+TTWO,2020-12-21,Take-Two Interactive,Annual index reconstitution.,1
+ULTA,2020-12-21,Ulta Beauty,Annual index reconstitution.,1
+LBTYA,2020-12-21,Liberty Global,Annual index reconstitution.,1
+ALXN,2021-07-21,Alexion Pharmaceuticals,Alexion Pharmaceuticals was acquired by AstraZeneca.,0
+MXIM,2021-08-26,Maxim Integrated Products,Maxim Integrated Products was acquired by Analog Devices.,0
+INCY,2021-12-20,Incyte,Annual index reconstitution.,1
+TCOM,2021-12-20,Trip.com,Annual index reconstitution.,1
+CHKP,2021-12-20,Check Point,Annual index reconstitution.,1
+CERN,2021-12-20,Cerner,Annual index reconstitution. Cerner was acquired by Oracle Corporation and rebranded as Oracle Health.,0
+FOX,2021-12-20,Fox Corporation,Annual index reconstitution.,1
+FOXA,2021-12-20,Fox Corporation,Annual index reconstitution.,1
+CDW,2021-12-20,CDW,Annual index reconstitution.,1
+PTON,2022-01-24,Peloton,Peloton did not meet the minimum monthly weight requirements.,1
+XLNX,2022-02-22,Xilinx,Xilinx was acquired by AMD.,0
+OKTA,2022-11-21,Okta,Okta did not meet the minimum monthly weight requirements.,1
+MTCH,2022-12-19,Match Group,Annual index reconstitution.,1
+BIDU,2022-12-19,Baidu,Annual index reconstitution.,1
+SPLK,2022-12-19,Splunk,Annual index reconstitution.,1
+NTES,2022-12-19,NetEase,Annual index reconstitution.,1
+SWKS,2022-12-19,Skyworks,Annual index reconstitution.,1
+VRSN,2022-12-19,VeriSign,Annual index reconstitution.,1
+DOCU,2022-12-19,DocuSign,Annual index reconstitution.,1
+FI,2023-06-07,Fiserv,Fiserv transferred its listing from NASDAQ to the NYSE.,1
+RIVN,2023-06-20,Rivian Automotive,Rivian did not meet the minimum monthly weight requirements.,1
+ATVI,2023-07-17,Activision Blizzard,Activision Blizzard was acquired by Microsoft.,0
+SGEN,2023-12-14,Seagen Inc.,Seagen merged with Pfizer.,0
+ALGN,2023-12-18,Align Technology,Annual index reconstitution.,1
+EBAY,2023-12-18,EBay,Annual index reconstitution.,1
+ZM,2023-12-18,Zoom Video Communications,Annual index reconstitution.,1
+JD,2023-12-18,JD.com,Annual index reconstitution.,1
+LCID,2023-12-18,Lucid Group,Annual index reconstitution.,1
+ENPH,2023-12-18,Enphase Energy,Annual index reconstitution.,1
+SPLK,2024-03-18,Splunk,Splunk was acquired by Cisco.,0
+SIRI,2024-06-24,Sirius XM,Sirius XM did not meet the minimum monthly weight requirements.,1
+WBA,2024-07-22,Walgreens Boots Alliance,WBA did not meet the minimum monthly weight requirements.,1
+DLTR,2024-11-18,Dollar Tree,Dollar Tree did not meet the minimum monthly weight requirements.,1
+SMCI,2024-12-23,Supermicro,Annual index reconstitution.,1
+MRNA,2024-12-23,Moderna,Annual index reconstitution.,1
+ILMN,2024-12-23,Ilumina,Annual index reconstitution.,1
+MDB,2025-05-19,MongoDB,MongoDB did not meet the minimum monthly weight requirements.,1
+ANSS,2025-07-17,Ansys,Ansys was acquired by Synopsys.,0
+SOLS,2025-11-06,Solstice Advanced Materials,Solstice Advanced Materials did not meet the minimum monthly weight requirements.,1
+ON,2025-12-22,ON Semiconductor,Annual index reconstitution.,1
+LULU,2025-12-22,Lululemon Athletica,Annual index reconstitution.,1
+GFS,2025-12-22,GlobalFoundries,Annual index reconstitution.,1
+CDW,2025-12-22,CDW Corporation,Annual index reconstitution.,1
+BIIB,2025-12-22,Biogen,Annual index reconstitution.,1
+TTD,2025-12-22,Trade Desk (The),Annual index reconstitution.,1
+VSNT,2026-01-09,Versant,Versant did not meet the minimum monthly weight requirements.,1
+AZN,2026-01-20,AstraZeneca,Walmart transferred its listing from NYSE to NASDAQ and replaced AstraZeneca in the index. AstraZeneca was preparing to transfer its listing from Nasdaq to the NYSE.,1
+TEAM,2026-04-20,Atlassian,Atlassian did not meet the minimum monthly weight requirements.,1
+CSGP,2026-05-18,CoStar Group,CoStar did not meet the minimum monthly weight requirements.,1

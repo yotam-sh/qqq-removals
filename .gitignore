@@ -1,0 +1,20 @@
+# Built site (regenerate with src/build_dashboard.py and src/build_stocks.py)
+/dist/
+
+# Run logs
+/logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Local Claude Code config
+.claude/

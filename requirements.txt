@@ -1,0 +1,8 @@
+# Nasdaq-100 removal study dependencies (tested on Python 3.13)
+pandas>=2.0
+numpy>=1.24
+yfinance>=0.2
+lxml>=5.0
+requests>=2.31
+curl_cffi>=0.7
+pandas-datareader>=0.10

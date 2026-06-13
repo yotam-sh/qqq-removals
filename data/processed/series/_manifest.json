@@ -1,0 +1,884 @@
+{
+"CMVT_2007-02-01": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"AEOS_2007-03-08": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ROST_2007-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"PTEN_2007-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ERIC_2007-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TLAB_2008-05-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"UAUA_2008-07-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"DISCA_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LAMR_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"AMLN_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SIRI_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CDNS_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"VMED_2008-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FMCN_2009-01-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"AKAM_2009-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"HANS_2009-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"RYAAY_2009-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"STLD_2009-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LBTYA_2009-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LOGI_2010-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"JBHT_2010-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CTAS_2010-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ILMN_2011-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"QGEN_2011-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"URBN_2011-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FSLR_2012-04-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TEVA_2012-05-30": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TCOM_2012-07-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"INFY_2012-12-12": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FLEX_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LRCX_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EA_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NFLX_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"RIMM_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"VRSN_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MRVL_2012-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"PRGO_2013-06-06": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ORCL_2013-07-15": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"GOLD_2013-11-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 208
+},
+"FOSL_2013-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MCHP_2013-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"XRAY_2013-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FFIV_2014-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EXPE_2014-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EQIX_2015-03-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LILA_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"WYNN_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"VIP_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"GRMN_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EXPD_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CHRW_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LILAK_2015-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"KLAC_2016-02-16": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"BATRA_2016-06-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"BATRK_2016-06-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NTAP_2016-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"BBBY_2016-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SBAC_2017-03-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TRIP_2017-04-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MAT_2017-10-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TSCO_2017-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NCLH_2017-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"DISCK_2017-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"DISCA_2017-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"AKAM_2017-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"XRAY_2018-11-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"VOD_2018-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SHPG_2018-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 10
+},
+"STX_2018-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"QRTEA_2018-12-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"HAS_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"JBHT_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"HSIC_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NLOK_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"WYNN_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MYL_2019-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"AAL_2020-04-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"WTW_2020-04-30": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"UAL_2020-06-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CSGP_2020-07-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NTAP_2020-08-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"WDC_2020-10-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EXPE_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"BMRN_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LBTYK_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TTWO_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ULTA_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LBTYA_2020-12-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"INCY_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"TCOM_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CHKP_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FOX_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"FOXA_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"CDW_2021-12-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"PTON_2022-01-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"OKTA_2022-11-21": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MTCH_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"BIDU_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"NTES_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SWKS_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"VRSN_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"DOCU_2022-12-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"RIVN_2023-06-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ALGN_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"EBAY_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ZM_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"JD_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"LCID_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ENPH_2023-12-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SIRI_2024-06-24": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"DLTR_2024-11-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SMCI_2024-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MRNA_2024-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"ILMN_2024-12-23": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"MDB_2025-05-19": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": false,
+"data_days": 253
+},
+"SOLS_2025-11-06": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 149
+},
+"ON_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"LULU_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"GFS_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"CDW_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"BIIB_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"TTD_2025-12-22": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 118
+},
+"VSNT_2026-01-09": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 106
+},
+"AZN_2026-01-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 100
+},
+"TEAM_2026-04-20": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 38
+},
+"CSGP_2026-05-18": {
+"available": true,
+"gate_ok": true,
+"source": "yfinance",
+"truncated": true,
+"data_days": 18
+}
+}
