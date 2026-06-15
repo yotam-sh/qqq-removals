@@ -1,0 +1,113 @@
+ticker,sector,industry,source
+AAL,Industrials,,map
+AEOS,Consumer Discretionary,,map
+AKAM,Information Technology,,map
+ALGN,Health Care,,map
+AMLN,Health Care,,map
+AZN,Health Care,,map
+BATRA,Communication Services,,map
+BATRK,Communication Services,,map
+BBBY,Consumer Discretionary,,map
+BIDU,Communication Services,,map
+BIIB,Health Care,,map
+BMRN,Health Care,,map
+CDNS,Information Technology,,map
+CDW,Information Technology,,map
+CHKP,Information Technology,,map
+CHRW,Industrials,,map
+CMVT,Information Technology,,map
+CSGP,Real Estate,,map
+CTAS,Industrials,,map
+DISCA,Communication Services,,map
+DISCK,Communication Services,,map
+DLTR,Consumer Staples,,map
+DOCU,Information Technology,,map
+EA,Communication Services,,map
+EBAY,Consumer Discretionary,,map
+ENPH,Information Technology,,map
+EQIX,Real Estate,,map
+ERIC,Information Technology,,map
+EXPD,Industrials,,map
+EXPE,Consumer Discretionary,,map
+FFIV,Information Technology,,map
+FLEX,Information Technology,,map
+FMCN,Communication Services,,map
+FOSL,Consumer Discretionary,,map
+FOX,Communication Services,,map
+FOXA,Communication Services,,map
+FSLR,Information Technology,,map
+GFS,Information Technology,,map
+GOLD,Materials,,map
+GRMN,Consumer Discretionary,,map
+HANS,Consumer Staples,,map
+HAS,Consumer Discretionary,,map
+HSIC,Health Care,,map
+ILMN,Health Care,,map
+INCY,Health Care,,map
+INFY,Information Technology,,map
+JBHT,Industrials,,map
+JD,Consumer Discretionary,,map
+KLAC,Information Technology,,map
+LAMR,Real Estate,,map
+LBTYA,Communication Services,,map
+LBTYK,Communication Services,,map
+LCID,Consumer Discretionary,,map
+LILA,Communication Services,,map
+LILAK,Communication Services,,map
+LOGI,Information Technology,,map
+LRCX,Information Technology,,map
+LULU,Consumer Discretionary,,map
+MAT,Consumer Discretionary,,map
+MCHP,Information Technology,,map
+MDB,Information Technology,,map
+MRNA,Health Care,,map
+MRVL,Information Technology,,map
+MTCH,Communication Services,,map
+MYL,Health Care,,map
+NCLH,Consumer Discretionary,,map
+NFLX,Communication Services,,map
+NLOK,Information Technology,,map
+NTAP,Information Technology,,map
+NTES,Communication Services,,map
+OKTA,Information Technology,,map
+ON,Information Technology,,map
+ORCL,Information Technology,,map
+PRGO,Health Care,,map
+PTEN,Energy,,map
+PTON,Consumer Discretionary,,map
+QGEN,Health Care,,map
+QRTEA,Consumer Discretionary,,map
+RIMM,Information Technology,,map
+RIVN,Consumer Discretionary,,map
+ROST,Consumer Discretionary,,map
+RYAAY,Industrials,,map
+SBAC,Real Estate,,map
+SHPG,Health Care,,map
+SIRI,Communication Services,,map
+SMCI,Information Technology,,map
+SOLS,Materials,,map
+STLD,Materials,,map
+STX,Information Technology,,map
+SWKS,Information Technology,,map
+TCOM,Consumer Discretionary,,map
+TEAM,Information Technology,,map
+TEVA,Health Care,,map
+TLAB,Information Technology,,map
+TRIP,Communication Services,,map
+TSCO,Consumer Discretionary,,map
+TTD,Information Technology,,map
+TTWO,Communication Services,,map
+UAL,Industrials,,map
+UAUA,Industrials,,map
+ULTA,Consumer Discretionary,,map
+URBN,Consumer Discretionary,,map
+VIP,Communication Services,,map
+VMED,Communication Services,,map
+VOD,Communication Services,,map
+VRSN,Information Technology,,map
+VSNT,Communication Services,,map
+WDC,Information Technology,,map
+WTW,Financials,,map
+WYNN,Consumer Discretionary,,map
+XRAY,Health Care,,map
+ZM,Information Technology,,map

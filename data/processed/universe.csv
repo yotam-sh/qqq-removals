@@ -1,0 +1,205 @@
+ticker,removal_date,company,analyzed,fate
+CMVT,2007-02-01,Comverse Technology,yes,survived
+APCC,2007-02-14,American Power Conversion,no,acquired
+AEOS,2007-03-08,American Eagle Outfitters,yes,survived
+MEDI,2007-06-01,MedImmune,no,acquired
+BMET,2007-07-12,Biomet,no,acquired
+NLTI,2007-08-27,NTL Incorporated,no,acquired
+CDWC,2007-10-08,CDW Corporation,no,acquired
+CKFR,2007-12-04,CheckFree Corporation,no,acquired
+XMSR,2007-12-24,XM Satellite Radio,no,unknown
+SEPR,2007-12-24,Sepracor,no,unknown
+ROST,2007-12-24,Ross Stores,yes,survived
+PTEN,2007-12-24,Patterson-UTI Energy,yes,survived
+ERIC,2007-12-24,LM Ericsson,yes,survived
+BEAS,2008-04-30,BEA Systems,no,acquired
+TLAB,2008-05-19,Tellabs,yes,survived
+UAUA,2008-07-21,UAL Corporation,yes,survived
+MNST,2008-11-10,Monster Worldwide,no,unknown
+LEAP,2008-12-22,Leap Wireless International,no,unknown
+DISCA,2008-12-22,Discovery Communications Class A,yes,survived
+LAMR,2008-12-22,Lamar Advertising Company,yes,survived
+LVLT,2008-12-22,Level 3 Communications,no,unknown
+AMLN,2008-12-22,Amylin Pharmaceuticals,yes,survived
+SIRI,2008-12-22,Sirius XM Radio,yes,survived
+PETM,2008-12-22,PetSmart,no,unknown
+WFMI,2008-12-22,Whole Foods Market,no,unknown
+CDNS,2008-12-22,Cadence Design Systems,yes,survived
+VMED,2008-12-22,Virgin Media,yes,survived
+SNDK,2008-12-22,SanDisk,no,unknown
+FMCN,2009-01-20,Focus Media Holding,yes,survived
+JAVA,2009-07-17,Sun Microsystems,no,acquired
+JNPR,2009-10-29,Juniper Networks,no,unknown
+AKAM,2009-12-21,Akamai Technologies,yes,survived
+IACI,2009-12-21,IAC/InterActiveCorp,no,unknown
+HANS,2009-12-21,Hansen Natural,yes,survived
+PPDI,2009-12-21,Pharmaceutical Product Development,no,unknown
+RYAAY,2009-12-21,Ryanair,yes,survived
+STLD,2009-12-21,Steel Dynamics,yes,survived
+LBTYA,2009-12-21,Liberty Global Class A,yes,survived
+LOGI,2010-12-20,Logitech,yes,survived
+JBHT,2010-12-20,J. B. Hunt,yes,survived
+HOLX,2010-12-20,Hologic,no,unknown
+FWLT,2010-12-20,Foster Wheeler,no,unknown
+DISH,2010-12-20,Dish Network,no,unknown
+CTAS,2010-12-20,Cintas,yes,survived
+PDCO,2010-12-20,Patterson Companies,no,unknown
+GENZ,2011-04-04,Genzyme,no,acquired
+MICC,2011-05-27,Millicom International Cellular,no,unknown
+CEPH,2011-07-15,Cephalon,no,acquired
+JOYG,2011-12-06,Joy Global,no,unknown
+FLIR,2011-12-19,FLIR Systems,no,unknown
+ILMN,2011-12-19,Illumina,yes,survived
+QGEN,2011-12-19,Qiagen,yes,survived
+NIHD,2011-12-19,NII Holdings,no,delisted
+URBN,2011-12-19,Urban Outfitters,yes,survived
+FSLR,2012-04-23,First Solar,yes,survived
+TEVA,2012-05-30,Teva Pharmaceutical Industries,yes,survived
+TCOM,2012-07-23,Ctrip,yes,survived
+INFY,2012-12-12,Infosys,yes,survived
+APOL,2012-12-24,Apollo Group,no,unknown
+FLEX,2012-12-24,Flextronics,yes,survived
+GMCR,2012-12-24,Green Mountain Coffee Roasters,no,unknown
+LRCX,2012-12-24,Lam Research,yes,survived
+EA,2012-12-24,Electronic Arts,yes,survived
+NFLX,2012-12-24,Netflix,yes,survived
+RIMM,2012-12-24,Research in Motion,yes,survived
+VRSN,2012-12-24,VeriSign,yes,survived
+WCRX,2012-12-24,Warner Chilcott,no,unknown
+MRVL,2012-12-24,Marvell Technology Group,yes,survived
+LMCA,2013-01-15,Liberty Media,no,acquired
+STRZA,2013-03-18,Starz,no,unknown
+VMED,2013-06-05,Virgin Media,no,acquired
+PRGO,2013-06-06,Perrigo,yes,survived
+ORCL,2013-07-15,Oracle,yes,survived
+BMC,2013-07-25,BMC Software,no,acquired
+LIFE,2013-08-22,Life Technologies,no,acquired
+DELL,2013-10-29,Dell,no,acquired
+GOLD,2013-11-18,Randgold Resources,yes,survived
+FOSL,2013-12-23,Fossil Group,yes,survived
+MCHP,2013-12-23,Microchip Technology,yes,survived
+SHLD,2013-12-23,Sears Holdings,no,delisted
+XRAY,2013-12-23,Dentsply,yes,survived
+NUAN,2013-12-23,Nuance Communications,no,unknown
+MXIM,2014-12-22,Maxim Integrated Products,no,unknown
+FFIV,2014-12-22,F5 Networks,yes,survived
+EXPE,2014-12-22,Expedia Group,yes,survived
+EQIX,2015-03-23,Equinix,yes,survived
+KRFT,2015-07-02,Kraft Foods,no,acquired
+CTRX,2015-07-24,Catamaran Corporation,no,acquired
+DTV,2015-07-24,DirecTV,no,acquired
+SIAL,2015-07-31,Sigma-Aldrich,no,acquired
+ALTR,2015-10-07,Altera,no,acquired
+AVGO,2015-11-11,Broadcom Corporation,no,acquired
+LILA,2015-12-21,Liberty Latin America Class A,yes,survived
+WYNN,2015-12-21,Wynn Resorts,yes,survived
+VIP,2015-12-21,VimpelCom,yes,survived
+SPLS,2015-12-21,Staples,no,unknown
+GRMN,2015-12-21,Garmin,yes,survived
+GMCR,2015-12-21,Keurig Green Mountain,no,unknown
+EXPD,2015-12-21,Expeditors International,yes,survived
+CHRW,2015-12-21,C. H. Robinson Worldwide,yes,survived
+LILAK,2015-12-21,Liberty Latin America Class C,yes,survived
+KLAC,2016-02-16,KLA-Tencor,yes,survived
+SNDK,2016-03-16,SanDisk,no,acquired
+BATRA,2016-06-20,Liberty Media,yes,survived
+LMCK,2016-06-20,Liberty Media,no,unknown
+LMCA,2016-06-20,Liberty Media,no,unknown
+BATRK,2016-06-20,Liberty Media,yes,survived
+ENDP,2016-07-18,Endo International,no,delisted
+LLTC,2016-10-19,Linear Technology,no,unknown
+WFM,2016-12-19,Whole Foods Market,no,unknown
+SRCL,2016-12-19,Stericycle,no,unknown
+NTAP,2016-12-19,NetApp,yes,survived
+BBBY,2016-12-19,Bed Bath & Beyond,yes,survived
+NXPI,2017-02-07,NXP Semiconductors,no,acquired
+SBAC,2017-03-20,SBA Communications,yes,survived
+TRIP,2017-04-24,TripAdvisor,yes,survived
+YHOO,2017-06-19,Yahoo! Inc.,no,acquired
+MAT,2017-10-23,Mattel,yes,survived
+VIAB,2017-12-18,Viacom,no,unknown
+TSCO,2017-12-18,Tractor Supply,yes,survived
+NCLH,2017-12-18,Norwegian Cruise Line Holdings,yes,survived
+DISCK,2017-12-18,Discovery Communications Series C,yes,survived
+DISCA,2017-12-18,Discovery Communications Series A,yes,survived
+AKAM,2017-12-18,Akamai Technologies,yes,survived
+DISH,2018-07-23,Dish Network,no,unknown
+CA,2018-11-05,CA Inc.,no,acquired
+XRAY,2018-11-19,Dentsply Sirona,yes,survived
+ESRX,2018-12-24,Express Scripts,no,unknown
+HOLX,2018-12-24,Hologic,no,unknown
+VOD,2018-12-24,Vodafone,yes,survived
+SHPG,2018-12-24,Shire PLC,yes,survived
+STX,2018-12-24,Seagate Technology,yes,survived
+QRTEA,2018-12-24,Qurate Retail,yes,survived
+FOX,2019-03-19,21st Century Fox Class B,no,acquired
+FOXA,2019-03-19,21st Century Fox Class A,no,acquired
+CELG,2019-11-21,Celgene,no,acquired
+HAS,2019-12-23,Hasbro,yes,survived
+JBHT,2019-12-23,J.B. Hunt,yes,survived
+HSIC,2019-12-23,Henry Schein,yes,survived
+NLOK,2019-12-23,NortonLifeLock,yes,survived
+WYNN,2019-12-23,Wynn Resorts,yes,survived
+MYL,2019-12-23,Mylan,yes,survived
+AAL,2020-04-20,American Airlines,yes,survived
+WTW,2020-04-30,Willis Towers Watson,yes,survived
+UAL,2020-06-22,United Airlines Holdings,yes,survived
+CSGP,2020-07-20,CoStar Group,yes,survived
+NTAP,2020-08-24,NetApp,yes,survived
+WDC,2020-10-19,Western Digital,yes,survived
+CTXS,2020-12-21,Citrix Systems,no,unknown
+EXPE,2020-12-21,Expedia,yes,survived
+BMRN,2020-12-21,BioMarin Pharmaceutical,yes,survived
+LBTYK,2020-12-21,Liberty Global,yes,survived
+TTWO,2020-12-21,Take-Two Interactive,yes,survived
+ULTA,2020-12-21,Ulta Beauty,yes,survived
+LBTYA,2020-12-21,Liberty Global,yes,survived
+ALXN,2021-07-21,Alexion Pharmaceuticals,no,acquired
+MXIM,2021-08-26,Maxim Integrated Products,no,acquired
+INCY,2021-12-20,Incyte,yes,survived
+TCOM,2021-12-20,Trip.com,yes,survived
+CHKP,2021-12-20,Check Point,yes,survived
+CERN,2021-12-20,Cerner,no,acquired
+FOX,2021-12-20,Fox Corporation,yes,survived
+FOXA,2021-12-20,Fox Corporation,yes,survived
+CDW,2021-12-20,CDW,yes,survived
+PTON,2022-01-24,Peloton,yes,survived
+XLNX,2022-02-22,Xilinx,no,acquired
+OKTA,2022-11-21,Okta,yes,survived
+MTCH,2022-12-19,Match Group,yes,survived
+BIDU,2022-12-19,Baidu,yes,survived
+SPLK,2022-12-19,Splunk,no,unknown
+NTES,2022-12-19,NetEase,yes,survived
+SWKS,2022-12-19,Skyworks,yes,survived
+VRSN,2022-12-19,VeriSign,yes,survived
+DOCU,2022-12-19,DocuSign,yes,survived
+FI,2023-06-07,Fiserv,no,unknown
+RIVN,2023-06-20,Rivian Automotive,yes,survived
+ATVI,2023-07-17,Activision Blizzard,no,acquired
+SGEN,2023-12-14,Seagen Inc.,no,acquired
+ALGN,2023-12-18,Align Technology,yes,survived
+EBAY,2023-12-18,EBay,yes,survived
+ZM,2023-12-18,Zoom Video Communications,yes,survived
+JD,2023-12-18,JD.com,yes,survived
+LCID,2023-12-18,Lucid Group,yes,survived
+ENPH,2023-12-18,Enphase Energy,yes,survived
+SPLK,2024-03-18,Splunk,no,acquired
+SIRI,2024-06-24,Sirius XM,yes,survived
+WBA,2024-07-22,Walgreens Boots Alliance,no,unknown
+DLTR,2024-11-18,Dollar Tree,yes,survived
+SMCI,2024-12-23,Supermicro,yes,survived
+MRNA,2024-12-23,Moderna,yes,survived
+ILMN,2024-12-23,Ilumina,yes,survived
+MDB,2025-05-19,MongoDB,yes,survived
+ANSS,2025-07-17,Ansys,no,acquired
+SOLS,2025-11-06,Solstice Advanced Materials,yes,survived
+ON,2025-12-22,ON Semiconductor,yes,survived
+LULU,2025-12-22,Lululemon Athletica,yes,survived
+GFS,2025-12-22,GlobalFoundries,yes,survived
+CDW,2025-12-22,CDW Corporation,yes,survived
+BIIB,2025-12-22,Biogen,yes,survived
+TTD,2025-12-22,Trade Desk (The),yes,survived
+VSNT,2026-01-09,Versant,yes,survived
+AZN,2026-01-20,AstraZeneca,yes,survived
+TEAM,2026-04-20,Atlassian,yes,survived
+CSGP,2026-05-18,CoStar Group,yes,survived
