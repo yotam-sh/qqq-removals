@@ -6,33 +6,50 @@ first 252 trading days *out* of the index — trough depth, peak, one-year retur
 return versus QQQ over the identical window — then renders the results as two self-contained,
 no-build static pages.
 
-- **`index.html`** — the aggregate overview (distributions, timing scatters, by-year
-  cohorts, and a sortable/filterable table of every stock).
-- **`stocks.html`** — a per-stock deep-dive with indexed price path, drawdown, relative
-  strength vs QQQ, a quarter-by-quarter return table, and plain-language commentary.
+- **`index.html`** — the aggregate overview: an auto-generated executive abstract, a
+  coverage/survivorship panel with three bias-corrected scenarios, the "average path" chart,
+  outcome distributions, timing scatters, by-year cohorts, tenure/archetype, market-regime and
+  sector breakdowns (with bootstrap CIs), an ultimate-fate & round-trips view, a collapsible
+  deletion-effect explainer, a what-if basket tied to the filters, and a sortable/filterable table.
+- **`stocks.html`** — a per-stock deep-dive: indexed price path, drawdown, relative strength vs
+  QQQ, a quarter-by-quarter return table, commentary, plus a round-trip/ultimate-fate badge, a
+  market-regime return decomposition, and a comparable-removals panel.
 
 Both pages share a dark/light theme and cross-link; the dashboard's table rows link into the
-matching stock deep-dive.
+matching stock deep-dive. Every chart supports wheel/pinch zoom, drag-to-pan, and double-click reset.
 
 ## Repository layout
 
 ```
 data/
-  raw/         removals.csv              hand-reviewed Wikipedia scrape (the pipeline input)
-  processed/   results_per_stock.csv     per-stock summary stats (study output)
-               series/                   daily aligned stock/QQQ series cache (+ _qqq, _manifest)
-src/           ndx_removals_study.py      build the removal list + run the per-stock analysis
-               export_series.py           fetch/cache daily series and gate them against the CSV
-               build_dashboard.py         render data/processed -> dist/index.html
-               build_stocks.py            render data/processed -> dist/stocks.html
-dist/          index.html stocks.html    the built site (gitignored — regenerate from src/)
+  raw/         removals.csv            hand-reviewed Wikipedia scrape (the pipeline input)
+  processed/   results_per_stock.csv   per-stock summary stats (study output)
+               series/                 daily aligned stock/QQQ series cache (+ _qqq, _manifest)
+               universe.csv            full 204-removal universe + fate (survivorship base)
+               fates_to_review.csv     unresolved fates for hand-filling (re-read on rerun)
+               sectors.csv             GICS sector per ticker (correctable)
+               *.json                  embedded aggregates: survivorship, average_path, tenure,
+                                        cis, roundtrip, regime, sectors, comparables, abstract
+src/
+  ndx_removals_study.py   build the removal list + run the per-stock analysis
+  export_series.py        fetch/cache daily series and reconcile them against the CSV
+  build_dashboard.py      render data/processed -> dist/index.html  (base page)
+  build_stocks.py         render data/processed -> dist/stocks.html (base page)
+  build_universe.py  survivorship.py  average_path.py  tenure.py  bootstrap.py
+                          pass-1 analysis: coverage/survivorship, average path, tenure, bootstrap CIs
+  roundtrip.py  regime.py  sectors.py  comparables.py  abstract.py
+                          pass-2 analysis: fate/round-trips, market regime, sector, peers, abstract
+  apply_extensions.py     inject pass-1 sections + the zoom layer into dist/*.html (idempotent)
+  apply_extensions2.py    inject pass-2 sections into dist/*.html (idempotent)
+  wrapup.py  wrapup2.py   reconciliation + headline reports (read-only)
+dist/          index.html stocks.html  the built site (gitignored — regenerate from src/)
 logs/          run logs (gitignored)
 requirements.txt  README.md  LICENSE  .gitignore
 ```
 
-The processed data (`results_per_stock.csv` and the `series/` cache) is committed so the site
-can be rebuilt offline — delisted-ticker history is hard to refetch later, so the cache is the
-source of truth for the pages.
+The processed data (`results_per_stock.csv`, the `series/` cache, and the embedded aggregates) is
+committed so the site can be rebuilt offline — delisted-ticker history is hard to refetch later, so
+the cache is the source of truth for the pages.
 
 ## Setup
 
@@ -74,8 +91,35 @@ so the working directory doesn't matter, but the `src/` prefix below assumes you
    python src/build_dashboard.py
    python src/build_stocks.py
    ```
-   Writes `dist/index.html` and `dist/stocks.html`. Open either file directly in a browser
-   (Chart.js is loaded from a CDN, the only thing that needs internet when viewing).
+   Writes the **base** `dist/index.html` and `dist/stocks.html`. Open either file directly in a
+   browser (Chart.js is loaded from a CDN, the only thing that needs internet when viewing).
+
+5. **Pass-1 analysis + inject** (compute small aggregates, then add them to the built pages):
+   ```sh
+   python src/build_universe.py    # universe.csv + fates_to_review.csv  (hand-fill unresolved fates, then re-run)
+   python src/survivorship.py      # survivorship.json  (three scenario medians + bias range)
+   python src/average_path.py      # average_path.json  (offset-aligned median/IQR bands; reconciles vs the CSV)
+   python src/tenure.py            # tenure.json  (years-in-index + archetype; scrapes Wikipedia)
+   python src/bootstrap.py         # cis.json  (10k bootstrap 95% CIs)
+   python src/apply_extensions.py  # inject coverage panel, average-path, tenure/archetype, CIs + zoom into dist/
+   ```
+
+6. **Pass-2 analysis + inject** (run in this order — later steps read earlier outputs):
+   ```sh
+   python src/roundtrip.py          # roundtrip.json  (re-additions + ultimate fate; scrapes Wikipedia)
+   python src/regime.py             # regime.json  (market regime per window; reconciles QQQ vs the CSV)
+   python src/sectors.py            # sectors.csv/json  (GICS sector; edit sectors.csv to correct)
+   python src/comparables.py        # comparables.json  (similar prior removals per stock)
+   python src/abstract.py           # abstract.json  (grounded executive summary)
+   python src/apply_extensions2.py  # inject fate/round-trips, regime, sector, abstract, what-if, comparables
+   ```
+   Optional: `python src/wrapup.py` / `wrapup2.py` print reconciliation spot-checks and the headline
+   numbers. The injectors are idempotent (guarded by `/*NDX-EXT*/` markers) and edit `dist/` in place.
+
+> Note: `dist/` is gitignored (a deploy artifact), so it isn't in the repo — your locally built/served
+> `dist/` is the live site. A few `dist/`-only refinements (mobile media queries, footer attribution,
+> favicon link) live in the built files rather than the `build_*.py` templates, so a from-scratch
+> rebuild won't reproduce those pages 1:1.
 
 ## Deploying
 
