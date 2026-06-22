@@ -1,0 +1,302 @@
+/* ============================================================
+   Comet design system — vendored token layers
+   Copied verbatim from the Comet Design System (claude.ai/design):
+     tokens/colors.css · typography.css · spacing.css · effects.css · base.css
+   This is the on-brand contract. Do not hand-edit values; re-vendor
+   from the source design system if Comet changes.
+   ============================================================ */
+
+/* ---------- colors.css ---------- */
+:root {
+  /* ---- Neutral ramp · warm purple-black (app chrome) ---- */
+  --comet-ink-0:  #100d16;   /* deepest — page void                */
+  --comet-ink-1:  #15111d;   /* app background                     */
+  --comet-ink-2:  #1c1726;   /* card / surface                     */
+  --comet-ink-3:  #241d30;   /* elevated surface, table header     */
+  --comet-ink-4:  #2e2640;   /* hover surface                      */
+  --comet-ink-5:  #3a3050;   /* pressed / active surface           */
+
+  /* ---- Hairlines ---- */
+  --comet-line:        #322a42;   /* default border                */
+  --comet-line-soft:   #271f34;   /* subtle divider                */
+  --comet-line-strong: #463a5e;   /* emphasized border             */
+
+  /* ---- Text (warm off-whites) ---- */
+  --comet-text-0: #f2edf8;   /* high-emphasis / headings           */
+  --comet-text-1: #d7cfe6;   /* body                               */
+  --comet-text-2: #a89ec0;   /* secondary / labels                 */
+  --comet-text-3: #756a8c;   /* muted / placeholder                */
+  --comet-text-4: #564d6b;   /* disabled                           */
+
+  /* ---- Comet violet (primary accent) ---- */
+  --comet-violet-100: #ede7ff;
+  --comet-violet-200: #d3c4ff;
+  --comet-violet-300: #b9a3fb;
+  --comet-violet-400: #a382f7;   /* primary accent                 */
+  --comet-violet-500: #8b5cf6;   /* strong / pressed               */
+  --comet-violet-600: #7338e8;
+  --comet-violet-700: #5b27bf;
+
+  /* ---- Comet glow (warm coral-amber secondary) ---- */
+  --comet-glow-300: #ffc09a;
+  --comet-glow-400: #ff9d6b;   /* secondary accent / comet tail    */
+  --comet-glow-500: #fb7d43;
+  --comet-glow-600: #e0631f;
+
+  /* ---- Semantic data hues (finance-friendly) ---- */
+  --comet-up-400:   #46cf83;   /* positive / gain / buy            */
+  --comet-up-500:   #2bb56b;
+  --comet-down-400: #ff5d6c;   /* negative / loss / sell           */
+  --comet-down-500: #ec3b4e;
+  --comet-warn-400: #f0ab3e;   /* warning / caution                */
+  --comet-warn-500: #d98e1d;
+  --comet-info-400: #5cc8ff;   /* informational / neutral series   */
+
+  /* ---- Chart categorical sequence (cool→warm, on dark) ---- */
+  --comet-series-1: #a382f7;
+  --comet-series-2: #ff9d6b;
+  --comet-series-3: #5cc8ff;
+  --comet-series-4: #46cf83;
+  --comet-series-5: #f0ab3e;
+  --comet-series-6: #f070c4;
+  --comet-series-7: #7c84ff;
+  --comet-series-8: #45d6c4;
+
+  /* ============================================================
+     SEMANTIC ALIASES — author against these, not the raw ramp.
+     ============================================================ */
+  --color-bg:            var(--comet-ink-1);
+  --color-bg-sunken:     var(--comet-ink-0);
+  --surface-card:        var(--comet-ink-2);
+  --surface-elevated:    var(--comet-ink-3);
+  --surface-hover:       var(--comet-ink-4);
+  --surface-active:      var(--comet-ink-5);
+  --surface-inset:       var(--comet-ink-0);
+
+  --border:              var(--comet-line);
+  --border-soft:         var(--comet-line-soft);
+  --border-strong:       var(--comet-line-strong);
+
+  --text-heading:        var(--comet-text-0);
+  --text-body:           var(--comet-text-1);
+  --text-secondary:      var(--comet-text-2);
+  --text-muted:          var(--comet-text-3);
+  --text-disabled:       var(--comet-text-4);
+
+  --accent:              var(--comet-violet-400);
+  --accent-hover:        var(--comet-violet-300);
+  --accent-strong:       var(--comet-violet-500);
+  --accent-contrast:     #1a1023;            /* text on a violet fill */
+  --accent-soft:         rgba(139, 92, 246, 0.16);
+  --accent-soft-hover:   rgba(139, 92, 246, 0.26);
+  --accent-line:         rgba(163, 130, 247, 0.42);
+
+  --glow:                var(--comet-glow-400);
+  --glow-soft:           rgba(255, 157, 107, 0.16);
+
+  --positive:            var(--comet-up-400);
+  --positive-soft:       rgba(70, 207, 131, 0.14);
+  --negative:            var(--comet-down-400);
+  --negative-soft:       rgba(255, 93, 108, 0.14);
+  --warning:             var(--comet-warn-400);
+  --warning-soft:        rgba(240, 171, 62, 0.14);
+  --info:                var(--comet-info-400);
+
+  --focus-ring:          var(--comet-violet-400);
+  --selection-bg:        rgba(139, 92, 246, 0.32);
+}
+
+/* ---------- typography.css ---------- */
+:root {
+  /* ---- Families ---- */
+  --font-display: 'Space Grotesk', 'Manrope', system-ui, sans-serif;
+  --font-sans:    'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* ---- Type scale (1.250 major-third-ish, tuned for dashboards) ---- */
+  --fs-2xs:  11px;
+  --fs-xs:   12px;
+  --fs-sm:   13px;
+  --fs-base: 14px;   /* default UI text — dense, dashboard-native */
+  --fs-md:   16px;
+  --fs-lg:   18px;
+  --fs-xl:   22px;
+  --fs-2xl:  28px;
+  --fs-3xl:  36px;
+  --fs-4xl:  46px;
+  --fs-5xl:  60px;
+
+  /* ---- Weights ---- */
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+  --fw-extra:    800;
+
+  /* ---- Line heights ---- */
+  --lh-tight:   1.1;
+  --lh-snug:    1.25;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.65;
+
+  /* ---- Letter spacing ---- */
+  --ls-tight:  -0.02em;
+  --ls-snug:   -0.01em;
+  --ls-normal: 0;
+  --ls-wide:   0.04em;
+  --ls-caps:   0.08em;
+
+  /* ---- Semantic roles ---- */
+  --text-display-font:   var(--font-display);
+  --text-display-weight: var(--fw-bold);
+  --text-heading-font:   var(--font-display);
+  --text-heading-weight: var(--fw-semibold);
+  --text-body-font:      var(--font-sans);
+  --text-label-weight:   var(--fw-semibold);
+  --text-numeric-font:   var(--font-mono);
+}
+
+/* ---------- spacing.css ---------- */
+:root {
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-7:  32px;
+  --space-8:  40px;
+  --space-9:  48px;
+  --space-10: 64px;
+  --space-11: 80px;
+  --space-12: 96px;
+
+  /* ---- Corner radii ---- */
+  --radius-xs:   4px;
+  --radius-sm:   6px;
+  --radius:      10px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   22px;
+  --radius-pill: 999px;
+
+  /* ---- Layout rhythm ---- */
+  --container-max: 1320px;
+  --gutter:        var(--space-6);
+  --card-pad:      var(--space-5);
+  --control-h:     38px;
+  --control-h-sm:  30px;
+  --control-h-lg:  46px;
+}
+
+/* ---------- effects.css ---------- */
+:root {
+  /* ---- Elevation (cool void shadows + violet ambient) ---- */
+  --shadow-sm:  0 1px 2px rgba(8, 5, 14, 0.45);
+  --shadow-md:  0 4px 14px rgba(8, 5, 14, 0.50);
+  --shadow-lg:  0 12px 34px rgba(6, 4, 12, 0.58);
+  --shadow-xl:  0 24px 60px rgba(4, 2, 10, 0.66);
+
+  /* ---- Accent glows (comet aura) — for focus, primary CTAs ---- */
+  --glow-violet: 0 0 0 1px rgba(139, 92, 246, 0.40), 0 6px 24px rgba(124, 58, 237, 0.34);
+  --glow-coral:  0 0 0 1px rgba(255, 157, 107, 0.40), 0 6px 22px rgba(251, 125, 67, 0.30);
+
+  /* ---- Focus ring ---- */
+  --ring:        0 0 0 2px var(--color-bg), 0 0 0 4px var(--focus-ring);
+  --ring-inset:  inset 0 0 0 1px var(--accent-line);
+
+  /* ---- Blur (overlays, sticky nav) ---- */
+  --blur-sm: 6px;
+  --blur-md: 14px;
+  --blur-lg: 24px;
+
+  /* ---- Motion — quick, confident, minimal bounce ---- */
+  --ease-out:   cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast:   120ms;
+  --dur:        180ms;
+  --dur-slow:   280ms;
+
+  /* ---- Signature gradients ---- */
+  --grad-comet:    linear-gradient(105deg, var(--comet-violet-500) 0%, var(--comet-glow-400) 100%);
+  --grad-violet:   linear-gradient(160deg, var(--comet-violet-400) 0%, var(--comet-violet-600) 100%);
+  --grad-aurora:   radial-gradient(120% 120% at 12% -10%, rgba(139, 92, 246, 0.20) 0%, rgba(139, 92, 246, 0) 55%),
+                   radial-gradient(120% 120% at 100% 0%, rgba(255, 157, 107, 0.12) 0%, rgba(255, 157, 107, 0) 50%);
+  --grad-scrim:    linear-gradient(to bottom, rgba(16, 13, 22, 0.92) 0%, rgba(16, 13, 22, 0) 100%);
+}
+
+/* ---------- base.css ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+  font-weight: var(--fw-regular);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-family: var(--font-display);
+  color: var(--text-heading);
+  font-weight: var(--fw-semibold);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--ls-snug);
+}
+
+p { margin: 0; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--dur) var(--ease-out);
+}
+a:hover { color: var(--accent-hover); }
+
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: 0.92em; }
+
+/* Tabular figures everywhere numbers matter */
+.comet-num, [data-numeric] {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+::selection { background: var(--selection-bg); color: var(--text-heading); }
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+  border-radius: var(--radius-xs);
+}
+
+/* Warm, slim scrollbars matching the void */
+* { scrollbar-width: thin; scrollbar-color: var(--comet-ink-4) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--comet-ink-4);
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--color-bg);
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--comet-ink-5); }
+
+@keyframes comet-spin { to { transform: rotate(360deg); } }
+@keyframes comet-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+@keyframes comet-fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
